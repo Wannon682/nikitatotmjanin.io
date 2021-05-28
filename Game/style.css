@@ -1,0 +1,51 @@
+/*
+.class {
+	
+}
+
+#id {
+	
+}
+
+selector {
+	
+}
+*/
+
+#PC {
+	display:block;
+	background-color:blue;
+	width: 200px;
+	height: 200px;
+	margin:auto; 
+	
+}
+#player {
+	display:block;
+	background-color:blue;
+	width: 200px;
+	height: 200px;
+	margin:auto; 
+	margin-top:80px;
+}
+#Maindiv {
+	height: 500px;
+	 background-color: yellow;
+	  width: 500px; 
+	  margin: auto;
+	  display:block;
+	  padding:inherit;
+	  padding-top:20px;
+}
+.btn {
+	width: 150px;
+	height: 30px;
+	margin-top:10px;
+	font-family: Comic Sans MS;
+	font-size: 14pt;
+
+}
+.texts {
+	font-family: Comic Sans MS;
+	font-size: 20pt;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script type="text/javascript" src="script.js"></script>
+
+</head>
+<body style="height: 600px; width: 50%; margin: auto; text-align: center" >
+	<h1 align="center">Камень-Ножницы-Бумага</h1>
+	<br>
+	<br>
+	<br>
+	<div id="Maindiv" >
+		<div id="PC">
+			
+		</div>
+
+		<div id="player">
+			
+
+		</div>
+
+	</div>
+	 	<div style="margin: auto;">
+	   <button class="btn" onclick="start();" id="start1" >Начать</button> 
+	   <button class="btn" onclick="finish();" id="finish1" disabled>Завершить</button> 
+	   <button class="btn" onclick="retry();" id="retry1" disabled> Ещё раз</button> 
+	   <br>
+	   <button class="btn" onclick="stone();" id="kamen" disabled>Камень</button> 
+	   <button class="btn" onclick="noj();" id="nojnitsi" disabled> Ножницы</button> 
+	   <button class="btn" onclick="paper();" id="bumaga" disabled> Бумага</button> 
+	   
+	   </div>
+	   <span class="texts" id="score2">
+	   	score PC:0
+
+	   </span> 
+	   <br>
+	   <span class="texts" id="score">
+	   	score player:0
+	   </span>
+</body>
+</html>
+
